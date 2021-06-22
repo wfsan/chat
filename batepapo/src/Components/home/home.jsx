@@ -7,7 +7,7 @@ class Home extends Component {
       <div>
           <div className="cabecalho">
               <header>
-                  <p>sobre nós</p>
+                  <a><p>sobre nós</p></a>
               </header>
           </div>
         <div className="mensagem">

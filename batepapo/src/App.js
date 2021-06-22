@@ -1,6 +1,4 @@
-import "./App.css";
-import Home from "./home/home";
-import Chat from "./chat/chat";
+import Home from "./Components/home/home.jsx";
 
 function App() {
   return (
