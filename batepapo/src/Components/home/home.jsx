@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import "./estilo.css";
 import { Link } from "react-router-dom";
+import { loadCSS } from "fg-loadcss";
+import { makeStyles } from "@material-ui/core/styles";
+import { green } from "@material-ui/core/colors";
+import Icon from "@material-ui/core/Icon";
 
 class Home extends Component {
   render() {
@@ -8,9 +12,9 @@ class Home extends Component {
       <div>
         <div className="cabecalho">
           <header>
-            <a>
-              <p>sobre nós</p>
-            </a>
+            <Link to="/sobre">
+              <button className="botaoSobre">sobre nós</button>
+            </Link>
           </header>
         </div>
         <div className="mensagem">
@@ -23,7 +27,7 @@ class Home extends Component {
         </Link>
         <div className="rodape">
           <footer>
-            <p>@Copyright</p>
+            <p>@Copyright 2021 for Wellington</p>
           </footer>
         </div>
       </div>
